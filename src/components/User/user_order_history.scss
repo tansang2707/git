@@ -1,0 +1,36 @@
+.table__orderhistory {
+  width: 100%;
+
+  table {
+    padding: 0;
+    width: 100%;
+    border: none;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    th {
+      text-align: left;
+      border-top: none;
+      padding: 10px 8px;
+      background-color: #00b5ad;
+    }
+    td {
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          color: #3498db;
+        }
+      }
+      text-align: left;
+      padding: 10px 8px;
+    }
+    tr {
+      &:nth-child(odd) {
+        background-color: #eee;
+      }
+      &:nth-child(even) {
+        background-color: white;
+      }
+    }
+  }
+}

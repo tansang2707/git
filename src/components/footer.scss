@@ -1,0 +1,95 @@
+.footer-top {
+  width: 100%;
+  margin: 100px 0 0 0;
+  padding: 0 0 54px 0;
+  color: white;
+  background: #0ccda3;
+  h4 {
+    color: white;
+  }
+  &--logo {
+    text-align: center;
+    font-size: 18px;
+    color: white !important;
+    & a:hover {
+      color: #27ae60;
+      transition: all ease 0.5s;
+    }
+  }
+  &-content {
+    padding: 36px 0 0 0;
+    &-left {
+      padding: 0 36px 0 0;
+      h4 {
+        font-weight: bold;
+      }
+    }
+    &-right {
+      padding: 0 0 0 36px;
+      h4 {
+        font-weight: bold;
+      }
+      .ant-btn-primary {
+        background: #00b5ad;
+        border-color: #00b5ad;
+      }
+      .ant-btn:hover {
+        background: #16a085;
+      }
+    }
+  }
+}
+.footer-bottom {
+  padding: 30px 0 42px 0;
+  h4 {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &--order {
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        padding: 12px 0;
+        position: relative;
+        &::before {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50);
+          left: 0px;
+          content: "";
+          width: 0;
+          height: 2px;
+          background: #ff5858;
+          transition: all 0.4s ease;
+        }
+        a {
+          display: block;
+          text-decoration: none;
+          color: teal;
+          transition: all 0.4s ease;
+        }
+        &:hover {
+          a {
+            transform: translateX(20px);
+            color: #ff5858;
+          }
+          &::before {
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+  &--contact {
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        display: inline-block;
+        padding: 0 12px 0 0;
+      }
+    }
+  }
+}

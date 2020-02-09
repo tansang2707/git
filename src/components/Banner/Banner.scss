@@ -1,0 +1,25 @@
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 500px;
+  // line-height: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  display: flex;
+}
+.banner {
+  .slide-img {
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlay {
+    height: 500px;
+    width: 100%;
+    // background: rgba(black, 0.05);
+    position: absolute;
+    z-index: 100;
+  }
+}

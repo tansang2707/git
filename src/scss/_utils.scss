@@ -1,0 +1,35 @@
+#nprogress .bar {
+  background: #0ccda3 !important;
+}
+#nprogress .spinner-icon {
+  border-top-color: #0ccda3;
+  border-left-color: #0ccda3;
+}
+
+.textHeading {
+  text-transform: uppercase !important;
+  letter-spacing: 12px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  font-weight: 400;
+
+  & b {
+    font-weight: 900;
+  }
+}
+.textUpper {
+  text-transform: uppercase !important;
+}
+
+.spaceBottom {
+  margin-bottom: 12px;
+}
+
+.fullHeight {
+  height: 100%;
+  background: red;
+}
+
+.overstrike {
+  text-decoration: line-through;
+}

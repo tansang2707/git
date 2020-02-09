@@ -1,0 +1,30 @@
+.product {
+  &__price {
+    font-size: 21px;
+    color: rgba(red, 0.75);
+  }
+  .ant-card-actions {
+    background: #0ccda3;
+    transition: all 0.5s ease;
+    &:hover {
+      background: darken(#0ccda3, 5%);
+    }
+  }
+  .ant-btn {
+    border: none !important;
+    background: transparent !important;
+    color: #fff;
+    &:hover {
+      color: #fff;
+      background: transparent !important;
+    }
+    &:active {
+      background: transparent !important;
+    }
+    &-loading,
+    &:focus {
+      background: transparent !important;
+      color: #fff !important;
+    }
+  }
+}

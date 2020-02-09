@@ -1,0 +1,32 @@
+.grid-info {
+  font-size: 14px;
+  .grid-row {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  &__content {
+    padding: 24px 0 0 0 !important;
+  }
+}
+.show-product-order {
+  width: 100%;
+
+  table {
+    width: 100%;
+    text-align: right;
+    margin: 24px 0 36px 0;
+    th {
+      &:nth-child(1) {
+        text-align: left;
+      }
+    }
+    td {
+      &:nth-child(1) {
+        text-align: left;
+      }
+    }
+  }
+  .header {
+    font-size: 12px !important;
+  }
+}

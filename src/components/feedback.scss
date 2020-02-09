@@ -1,0 +1,45 @@
+.feedback {
+  margin: 36px 0;
+  background-image: url("/img/img-bg-1.jpg");
+  background-size: 1200px auto;
+  .ant-carousel {
+    .slick-slide {
+      text-align: center;
+
+      line-height: 160px;
+
+      overflow: hidden;
+      h1 {
+        color: #fff;
+      }
+    }
+  }
+  .ant-carousel .slick-dots li.slick-active button {
+    background: #d35400;
+    width: 36px;
+  }
+  .ant-carousel .slick-dots li button {
+    background: #e67e22;
+  }
+  .feedback-item {
+    width: 100%;
+    &__avatar {
+      img {
+        border-radius: 50%;
+        margin: 20px auto 10px auto;
+        width: 96px;
+        height: 96px;
+      }
+    }
+    &__rate {
+      height: 80px;
+      line-height: 40px !important;
+    }
+    &__content {
+      width: 500px !important;
+      margin: 0 auto;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+  }
+}

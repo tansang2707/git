@@ -1,0 +1,6 @@
+{
+  "env": {
+    "REACT_APP_API_URL": "http://orokucode.com:3001/api",
+    "REACT_APP_PRODUCT_URL": "http://orokucode.com:3001/uploads/products"
+  }
+}

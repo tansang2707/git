@@ -1,0 +1,7 @@
+li.ant-tree-treenode-disabled > span:not(.ant-tree-switcher),
+li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper,
+li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper span {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer !important;
+  background: #cce2ff;
+}

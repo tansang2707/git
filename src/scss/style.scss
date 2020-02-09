@@ -1,0 +1,75 @@
+@import "./utils";
+
+$teal: #0ccda3;
+
+.sidebar__cart {
+  background-image: linear-gradient(to right, #0ccda3, #c1fcd3);
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px !important;
+  box-sizing: border-box;
+}
+
+.text {
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right !important;
+  }
+  &-heading {
+    padding: 50px 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  &-styled {
+    font-family: "Coiny", cursive !important;
+  }
+  &-white {
+    color: #fff;
+  }
+}
+
+.pt {
+  padding-top: 24px;
+}
+
+.mt {
+  margin-top: 24px;
+}
+
+.m2t {
+  margin-top: 48px;
+}
+
+//Ant.design customize
+a {
+  &,
+  &:visited,
+  &:active,
+  &:focus {
+    color: darken($teal, 5%);
+  }
+  &:hover {
+    color: darken($teal, 10%) !important;
+  }
+}
+.ant-btn-primary {
+  background-color: $teal;
+  border: $teal;
+  &:focus {
+    background: $teal;
+  }
+  &:hover {
+    background-color: darken($teal, 5%);
+  }
+}
+.ant-menu-submenu-selected,
+.ant-menu-submenu-active {
+  border-color: $teal !important;
+}

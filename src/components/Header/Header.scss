@@ -1,0 +1,65 @@
+.pine-header {
+  background: #fff !important;
+  box-shadow: 0 0 30px rgba(black, 0.05);
+  .ant-menu {
+    .ant-menu-item {
+      a {
+        &,
+        &:visited,
+        &:focus {
+          color: rgba(black, 0.8) !important;
+        }
+      }
+    }
+  }
+
+  .logo {
+    font-family: "Cherry Bomb", cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    height: 32px;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .menu {
+    background: #fff !important;
+  }
+  .autocomplete {
+    input {
+      border: none !important;
+      width: 100% !important;
+      &:focus {
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+  .category {
+    background: #0ccda3;
+    &:hover {
+      background: #0ccda3 !important;
+    }
+    a {
+      &,
+      &:visited {
+        color: #fff !important;
+      }
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+  .ant-menu-item {
+    color: rgba(black, 0.65) !important;
+    border: none !important;
+    &-selected,
+    &-active {
+      border-color: #0ccda3 !important;
+      color: rgba(black, 0.65) !important;
+    }
+  }
+}

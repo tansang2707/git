@@ -1,0 +1,44 @@
+.hot-and-new-product {
+  margin-top: 42px;
+}
+.hot-cake-title::before {
+  right: 99%;
+  content: "";
+  top: 1.3%;
+  transform: translateX(250%);
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #e9e9e9;
+  z-index: 10;
+}
+.new-cake-title::before {
+  right: 98%;
+  content: "";
+  top: 1.3%;
+  transform: translateX(250%);
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #e9e9e9;
+  z-index: 10;
+}
+.item-img {
+  text-align: center;
+  &--img {
+    width: 200px;
+    height: auto;
+  }
+}
+.item-content {
+  padding: 16px;
+  &--name {
+    h3 {
+      font-size: 24px;
+    }
+    margin-bottom: 12px;
+  }
+  &--price {
+    margin-bottom: 12px;
+  }
+}

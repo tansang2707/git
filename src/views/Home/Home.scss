@@ -1,0 +1,47 @@
+.home {
+  .popular-products {
+    padding: 50px 0;
+  }
+  .product {
+    &-img {
+      transition: all 1s ease;
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+    &-card {
+      overflow: hidden;
+    }
+  }
+  .salebox {
+    padding: 50px 50px;
+    background: #0ccda3;
+    margin-bottom: 20px;
+    &__heading {
+      font-size: 2.5em;
+      color: #fff;
+    }
+  }
+  .catbox {
+    height: 200px;
+    &__box {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      content: "123";
+      font-family: "Coiny", cursive !important;
+      font-size: 1.5em;
+      box-sizing: border-box;
+      text-align: center;
+      &.active {
+        border: 3px solid #0ccda3;
+      }
+    }
+  }
+  .be-partner {
+    background: #e5e6e7;
+    margin-top: 20px;
+  }
+}

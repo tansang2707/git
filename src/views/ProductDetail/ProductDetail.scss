@@ -1,0 +1,37 @@
+.product-detail {
+  a,
+  a:visited {
+    color: #0ccda3;
+  }
+  .pt {
+    margin-top: 24px;
+  }
+  &__name {
+    font-size: 3em;
+    letter-spacing: 3px;
+  }
+  &__category {
+  }
+  &__rate {
+    margin-left: 12px;
+    font-size: 16px;
+    color: rgba(black, 0.5);
+    letter-spacing: 1.5px;
+  }
+  &__price {
+    &--sellPrice {
+      font-size: 2.5em;
+      margin: 12px 0;
+      color: #ff7979;
+    }
+    &--oldPrice {
+      font-size: 1.3em;
+      text-decoration: line-through;
+      margin-bottom: 12px;
+      color: rgba(black, 0.35);
+    }
+  }
+  &__actionButton {
+    margin: 24px 0;
+  }
+}
