@@ -1,3 +1,5 @@
+Cách chạy project Shop Cake
+
 Cần Cài đặt:
   - git
   - node v10
